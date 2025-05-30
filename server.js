@@ -84,7 +84,7 @@ else{
 
 })
 
- server.listen(3100);
+ server.listen(3000);
  const { Server } = require("socket.io")
  const io = new Server(server);
 io.use((socket, next) => {
